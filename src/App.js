@@ -5,6 +5,8 @@ import Aboutme from './Aboutme';
 import Projects from './Projects';
 import Contactme from './Contactme';
 import Skills from './Skills';
+import FetchData from './FetchData';
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,9 @@ function App() {
       <Aboutme></Aboutme>
       <Projects></Projects>
       <Skills></Skills>
+      <FetchData></FetchData>
       <Contactme></Contactme>
+
  
     </div>
   );

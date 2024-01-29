@@ -245,7 +245,7 @@ textarea {
   display: flex; 
   width: 80%; 
 } 
-/*Adding background image to each section*/
+/*Adding background image to each section
 .one{ 
   background: url(../images/webdev.jpg); 
 } 
@@ -257,7 +257,7 @@ textarea {
 } 
 .four{ 
   background: url(./images/javsc.jpg); 
-}
+}*/
 /* Background properties and transition effect to section  */
 .section{ 
   background-size: cover; 
