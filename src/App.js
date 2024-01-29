@@ -21,8 +21,8 @@ function App() {
       <Aboutme></Aboutme>
       <Projects></Projects>
       <Skills></Skills>
-      <FetchData></FetchData>
       <Contactme></Contactme>
+      <FetchData></FetchData>
 
  
     </div>

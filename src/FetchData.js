@@ -14,7 +14,7 @@ const FetchData = () => {
     })
     return ( 
       <div className="about-info">
-        <button onClick={FetchData }>Get Quote</button>
+       <button className="my-button" onClick={FetchData}>Get Quote</button>
         { quote ? <p>{quote}</p> : null}
 
       </div>  

@@ -12,7 +12,7 @@
   --primary: white;
   --secondary: #0cb8c2;
   --accent: #0cb8c2;
-  --text: Black;
+  --text: white;
 }
 
 html {
@@ -38,6 +38,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("./images/img 4.jpg"); 
  
 }
 
@@ -134,7 +135,7 @@ a {
   justify-content: center;
   align-items: center;
   color: var(--text);
- background-image: url("./images/img 4.jpg"); 
+ 
  
 
 }
@@ -206,6 +207,16 @@ a {
   padding-bottom: 2rem;
 }
 
+.my-button {
+  background-color: #0cb8c2;;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
 
 /* contact styles */
 .contact-info-item {
