@@ -1,5 +1,6 @@
 const Aboutme = () => {
     return (
+        
         <section className="about container" id="about">
   <div className="about-info">
     <h2 className="secondary-title">About Me</h2>
