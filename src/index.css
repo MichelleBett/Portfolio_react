@@ -240,14 +240,14 @@ textarea {
 
 
 
-/* Setting container to flex and width to 80% of view port */
+
 .con{ 
   display: flex; 
   width: 80%; 
 } 
-/*Adding background image to each section
+/*Adding background image to each section  */
 .one{ 
-  background: url(../images/webdev.jpg); 
+  background: url(./images/webdev.jpg); 
 } 
 .two{ 
   background: url(./images/software.jpg); 
@@ -257,8 +257,8 @@ textarea {
 } 
 .four{ 
   background: url(./images/javsc.jpg); 
-}*/
-/* Background properties and transition effect to section  */
+}
+
 .section{ 
   background-size: cover; 
   background-position: center; 
@@ -271,7 +271,7 @@ textarea {
   transition: all 0.7s ease-out; 
 }  
 
-/* section with active class will grow flex to 3 times  */
+
 .section.active{ 
   flex: 3; 
 }

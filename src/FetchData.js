@@ -1,11 +1,9 @@
 import axios from 'axios';
-
-
-const [quote, setQuote] = useState('')
+import { useState } from 'react';
 
 
 const FetchData = () => {
-    
+    const [quote, setQuote] = useState('')
     
     axios.get('https://api.quotable.io/random')
     .then(res => {
@@ -17,7 +15,7 @@ const FetchData = () => {
     return ( 
       <div className="about-info">
         <button onClick={FetchData }>Get Quote</button>
-        { quote && <p>{quote}</p> }
+        { quote ? <p>{quote}</p> : null}
 
       </div>  
       
