@@ -1,3 +1,7 @@
+Link to my deployed portfolio: https://michellebett.github.io/Portfolio_react/
+
+
+
 **Questions**
 What is NPM? It is a package manager for a node.js environment that allows one to install and delete packages.
 
