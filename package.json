@@ -1,7 +1,7 @@
 {
   "name": "portfolio_react",
   "version": "0.1.0",
-  "homepage": "https://MichelleBett.github.io/portfolio_react/",
+  "homepage": "https://michellebett.github.io/Portfolio_react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
